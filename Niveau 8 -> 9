@@ -1,0 +1,6 @@
+Le mot de passe du niveau suivant est stocké dans le fichier data.txt et est la seule ligne de texte qui n'apparaît qu'une seule fois :
+          
+          bandit8@bandit:~$ ls -a
+          .  ..  .bash_logout  .bashrc  .profile  data.txt
+          bandit8@bandit:~$ cat data.txt | sort | uniq -u
+          UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
