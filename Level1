@@ -1,0 +1,9 @@
+Le mot de passe pour le niveau suivant est stocké dans un fichier appelé "readme" situé dans le répertoire home. Utilisé se mot de passe pour vous 
+connecter à bandit1 en utilisant SSH. 
+Tel que : bandit0@bandit:~$ ls
+          readme
+          bandit0@bandit:~$ cat readme
+          NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+          
+Chaque fois que vous trouvez un mot de passe pour un niveau, utilisez SSH pour vous connecter à ce niveau et 
+continuer le jeu.
