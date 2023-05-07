@@ -1,0 +1,5 @@
+Le mot de passe du niveau suivant est stocké dans un fichier appelé - situé dans le répertoire home, on peut le trouvé en exécutant :
+    bandit1@bandit:~$ cd /home
+    bandit1@bandit:/home$ cat ~/-
+    rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+    bandit1@bandit:/home$ exit
