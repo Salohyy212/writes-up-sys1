@@ -1,0 +1,10 @@
+Le mot de passe du niveau suivant est stocké quelque part sur le serveur et possède toutes les propriétés suivantes:
+          
+           -propriété de l'utilisateur bandit7
+           - propriété du groupe bandit6
+           - taille de 33 octets
+           
+   bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 32c 2>/dev/null
+   /var/lib/dpkg/info/bandit7.password
+   bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+   HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
