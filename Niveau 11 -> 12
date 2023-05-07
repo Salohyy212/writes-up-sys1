@@ -1,0 +1,8 @@
+Le mote de passe du niveau suivant est stocké dans le fichier data.txt; où toutes les lettres minuscules(az) et majuscule(AZ) ont été pivotées de 13 positions :
+           
+            bandit11@bandit:~$ ls -a
+            .  ..  .bash_logout  .bashrc  .profile  data.txt
+            bandit11@bandit:~$ cat data.txt
+            Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
+            bandit11@bandit:~$ echo Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh | tr [a-zA-Z] [n-za-mN-ZA-M]
+            The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
