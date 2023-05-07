@@ -5,5 +5,7 @@ Tel que : bandit0@bandit:~$ ls
           bandit0@bandit:~$ cat readme
           NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
           
-Chaque fois que vous trouvez un mot de passe pour un niveau, utilisez SSH pour vous connecter à ce niveau et 
-continuer le jeu.
+*Chaque fois que vous trouvez un mot de passe pour un niveau, utilisez SSH pour vous connecter à ce niveau et 
+continuer le jeu.*
+
+A partir d'ici, tapez 'exit' et SSH pour revenir au niveau suivant en exécutant : ssh bandit1@bandit.labs.overthewire.org
