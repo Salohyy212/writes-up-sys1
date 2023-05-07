@@ -1,0 +1,23 @@
+Le mot de passe pour le niveau suivant est stocké dans le seul fichier lisible par l'homme dans le répertoire inhere. Si votre terminal est en passe, 
+essayez la commande "reset".
+          
+          bandit4@bandit:~$ ls -a
+          .  ..  .bash_logout  .bashrc  inhere  .profile
+          bandit4@bandit:~$ cd inhere
+          bandit4@bandit:~/inhere$ ls -a
+          .  ..  -file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
+          bandit4@bandit:~/inhere$ file ./-*
+          ./-file00: data
+          ./-file01: data
+          ./-file02: data
+          ./-file03: data
+          ./-file04: data
+          ./-file05: data
+          ./-file06: data
+          ./-file07: ASCII text
+          ./-file08: data
+          ./-file09: Non-ISO extended-ASCII text, with no line terminators
+          bandit4@bandit:~/inhere$ cat ./-file07
+          lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+          bandit4@bandit:~/inhere$ cd
+          bandit4@bandit:~$ exit
