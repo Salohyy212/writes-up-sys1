@@ -1,0 +1,2 @@
+Pour accéder au niveau0, nous devons simplement nous connecter en SSH à Bandit avec le nom d'utilisateur : bandit0 et le mot de passe : bandit0
+ Tel que:  ssh bandit0@bandit.labs.overthewire.org
