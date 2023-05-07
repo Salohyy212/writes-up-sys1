@@ -1,0 +1,8 @@
+Le mot de passe pdu niveu suivant est stocké dans un fichier caché dans le répertoire "inhere" :
+       bandit3@bandit:~$ cd inhere
+       bandit3@bandit:~/inhere$ ls -a
+       .  ..  .hidden
+       bandit3@bandit:~/inhere$ cat .hidden
+       2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+       bandit3@bandit:~/inhere$ cd
+       bandit3@bandit:~$ exit
