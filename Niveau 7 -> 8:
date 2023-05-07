@@ -1,0 +1,6 @@
+Le mot de passe du niveau  suivant est stocké dans le fichier data.txt à côté du mot millionième :
+          
+          bandit7@bandit:~$ ls -a
+          .  ..  .bash_logout  .bashrc  .profile  data.txt
+          bandit7@bandit:~$ awk '/^millionth/ {print $2;}' data.txt
+          cvX2JJa4CFALtqS87jk27qwqGhBM9plV
